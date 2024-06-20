@@ -1,0 +1,47 @@
+*{
+    
+}
+
+body{
+    display: flex;
+    border: red solid 2px;
+}
+
+.imgLogoContainer{
+    border: red solid 2px;
+    height: 900px;
+    width: 40%;
+}
+
+.logoContainer{
+    margin-top: 200px;
+    height: 175px;
+    border: red solid 2px;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    border: red solid 2px;
+    width: 100%;
+}
+div h1{ 
+    padding-top: 20px;
+}
+.description{
+    background-color: aqua;
+    border: red solid 2px;
+    height: 25%;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+}
+.fieldset{
+    border: red solid 2px;
+    height: 50%;
+
+}
+.createAccountLogin{
+    border: red solid 2px;
+    height: 25%;
+}
