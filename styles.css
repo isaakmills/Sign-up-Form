@@ -36,11 +36,35 @@ div h1{
     padding-right: 30px;
    
 }
+
+form{
+    display: flex;
+    padding: 20px;
+}
+ol{
+    list-style: none;
+}
+li{
+    margin: 20px;
+
+
+}
+
+
+.fieldset h1{
+    padding-left: 20px;
+}
+
 .fieldset{
     border: red solid 2px;
     height: 50%;
 
 }
+.fieldset fieldset{ 
+    padding: 20px;
+}
+
+
 .createAccountLogin{
     border: red solid 2px;
     height: 25%;
