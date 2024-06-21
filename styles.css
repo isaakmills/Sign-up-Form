@@ -1,81 +1,124 @@
 *{
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body{
     display: flex;
-    border: red solid 2px;
+
 }
 
 .imgLogoContainer{
-    border: red solid 2px;
-    height: 900px;
+
+    height: 1100px;
     width: 40%;
+    background-image:url(constructionimg.jpg);
+    background-size: 300%;   
 }
+.logoContainer{
+    background-color: antiquewhite;
+    opacity:.5;
+}
+
+.logo{ 
+    opacity:unset;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .logoContainer{
     margin-top: 200px;
     height: 175px;
-    border: red solid 2px;
+
 }
 
 .textContainer{
     display: flex;
     flex-direction: column;
-    border: red solid 2px;
+    
     width: 100%;
 }
 div h1{ 
     padding-top: 20px;
 }
 .description{
-    background-color: aqua;
-    border: red solid 2px;
+    background-color: rgb(208, 227, 227);
+    
     height: 25%;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+    padding-top: 40px;
+    
    
 }
 
 form{
     display: flex;
-    padding: 20px;
+    flex-direction: column;
+    padding-left:30px ;
+    
+
 }
 ol{
-    display: flex;
+
+/*    display: flex;
     flex-direction: column;
     list-style: none;
     margin-right: 30px; 
     margin-left: 0px;
-    padding-left:0px ;   
+    padding-left:0px ;
+    */   
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+   
 }
 li{
-    margin: 20px;
-    
-
-
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding-left: 60px;
 }
 input{
-    width: 250px;
-    height: 20px;
-}
-
-
-.fieldset h1{
-    padding-left: 20px;
+    width: 500px;
+    height: 35px;
 }
 
 .fieldset{
-    border: red solid 2px;
+    padding-bottom:30px ;
     height: 50%;
-
-}
-.fieldset fieldset{ 
-    padding: 20px;
 }
 
+.fieldset h1{
+    padding-left: 140px;
+}
+
+label{
+    font-size: 20px;
+    opacity: .75;
+}
 
 .createAccountLogin{
-    border: red solid 2px;
-    height: 25%;
+    background-color: rgb(208, 227, 227);
+    height: 300px;
+    padding: 40px;
+}
+button{
+    margin-left: 200px;
+    height: 65px;
+    width: 300px;
+    font-size: 1.24rem;
+}
+p{
+margin-top: 20px;
+margin-left: 210px;}
+
+a{ 
+    text-decoration: none;
+    color: forestgreen;
 }
