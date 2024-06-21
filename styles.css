@@ -42,12 +42,22 @@ form{
     padding: 20px;
 }
 ol{
+    display: flex;
+    flex-direction: column;
     list-style: none;
+    margin-right: 30px; 
+    margin-left: 0px;
+    padding-left:0px ;   
 }
 li{
     margin: 20px;
+    
 
 
+}
+input{
+    width: 250px;
+    height: 20px;
 }
 
 
